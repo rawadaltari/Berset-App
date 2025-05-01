@@ -8,8 +8,8 @@ import Loader from "./Components/Loader/Loader";
 import Footer from "./Components/Footer/Footer";
 import { MedicenCard } from "./Components/MedicenCard/MedicenCard";
 import WhyBreseat from "./Components/WhyBreseat/WhyBreseat";
-import Background from "./pages/About/background";
-import Tester from "./pages/Tester/Tester";
+import Background from "./pages/About/Background";
+
 function App() {
   const [loading, setLoading] = useState(true);
 
