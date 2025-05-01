@@ -1,4 +1,4 @@
-import Footer from "../../../Components/Footer/footer";
+import Footer from "../../../Components/Footer/Footer";
 import Header from "../../../Components/Header/Header";
 import { Col, Container, Row } from "react-bootstrap";
 import img1 from '../../../../public/img/41.jpg'
