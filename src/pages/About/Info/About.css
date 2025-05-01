@@ -1,0 +1,12 @@
+.about{
+  flex-direction: row;
+}
+@media (max-width: 680px) {
+    .about {
+      flex-direction: column; 
+    }
+    .about img{
+      margin-top: 15px;
+      padding-top: 15px;
+    }
+}

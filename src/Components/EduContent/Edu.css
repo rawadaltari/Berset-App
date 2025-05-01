@@ -1,0 +1,11 @@
+.text{
+    color: #ff135a;
+}
+.border{
+    border-right-color: #ff135a;
+    border-right-color: #ffe8ef;
+    
+}
+.gradent{
+    border: 2px solid #ff135a;
+}
