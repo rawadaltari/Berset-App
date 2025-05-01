@@ -2,7 +2,7 @@ import { ChevronDownIcon } from "@heroicons/react/16/solid";
 
 import "./Contact.css";
 import Header from "../../Components/Header/Header";
-import Footer from "../../Components/Footer/footer";
+import Footer from "../../Components/Footer/Footer";
 import Background from "../About/Background";
 import { Col, Container, Row } from "react-bootstrap";
 import img1 from '../../assets/img/21.png';

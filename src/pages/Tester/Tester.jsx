@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { cn } from '../../lib/utils';
 import { predictSeverity } from '../../utils/predictionModel';
 import Header from '../../Components/Header/Header';
-import Footer from '../../Components/Footer/footer';
+import Footer from '../../Components/Footer/Footer';
 import Background from '../About/Background';
 import './Tester.css'
 const initialValues = {
