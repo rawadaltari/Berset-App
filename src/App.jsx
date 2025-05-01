@@ -5,7 +5,7 @@ import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import React, { useEffect, useState } from "react";
 import Loader from "./Components/Loader/Loader";
-import Footer from "./Components/Footer/footer";
+import Footer from "./Components/Footer/Footer";
 import { MedicenCard } from "./Components/MedicenCard/MedicenCard";
 import WhyBreseat from "./Components/WhyBreseat/WhyBreseat";
 import Background from "./pages/About/background";
