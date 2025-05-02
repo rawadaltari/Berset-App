@@ -44,9 +44,9 @@ export default function Header() {
             
             <button 
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500"
+              className="inline-flex  items-center justify-center p-2 rounded-md border-blue-600 text-fuchsia-950 hover:text-pink-600 hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-fuchsia-500 focus:text-pink-800"
             >
-              <Menu size={24} />
+              <Menu size={29} />
             </button>
           </div>
         </div>
