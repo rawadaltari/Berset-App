@@ -12,15 +12,20 @@ export default function WhyBreseat() {
         <p className="text-gray-600 leading-relaxed">
         بسبب التزامنا بتوفير فحوصات دقيقة وموثوقة، بالإضافة إلى التركيز على التوعية بأهمية الكشف المبكر. نحن نقدم خدمات متكاملة تشمل الدعم النفسي والمعلومات الطبية اللازمة لتعزيز الوعي والوقاية.
         </p>
+       
+
         
-        <p className="text-gray-600 leading-relaxed">
+        <div className="text-gray-600 leading-relaxed">
+          
           <ul ><span className="font-bold text-[#da4273]">تكنولوجيا متقدمة</span>
             <li>نستخدم أحدث التقنيات في الفحص، مثل الماموغرام والتصوير بالموجات فوق الصوتية</li>
           </ul>
           <ul ><span className="font-bold text-[#da4273]">فريق طبي متخصص</span>
             <li>    يتكون فريقنا من أطباء ومختصين ذوي خبرة عالية في مجال سرطان الثدي</li>
           </ul>
-        </p>
+        
+          
+        </div>
         
       </div>
       

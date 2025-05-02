@@ -13,16 +13,16 @@ export default function Hero() {
         <Col sm={10} md={6} className="">
           <div className="">
             <div className=" p-5   ">
-              <div class="cardtop">
-                <div class="loderword">
+              <div className="cardtop">
+                <div className="loderword">
                   <h1>تنبأ بحالتك الصحية</h1>
-                  <div class="words">
+                  <div className="words">
                     
-                    <span class="word">بثقة</span>
-                    <span class="word"> بدقة وامان</span>
-                    <span class="word">بأحدث تقنيات</span>
-                    <span class="word">بطريقة مبتكرة</span>
-                    <span class="word">بأيدي خبيرة</span>
+                    <span className="word">بثقة</span>
+                    <span className="word"> بدقة وامان</span>
+                    <span className="word">بأحدث تقنيات</span>
+                    <span className="word">بطريقة مبتكرة</span>
+                    <span className="word">بأيدي خبيرة</span>
                   </div>
                 </div>
               </div>

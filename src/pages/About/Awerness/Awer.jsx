@@ -9,7 +9,7 @@ export default function Awer() {
       <div className="max-w-4xl mx-auto space-y-8">
         <HeroSection
           title="بعض نصائح لسرطان الثدي"
-          imageUrl="public/img/65.png"
+          imageUrl="/public/img/65.png"
           imageAlt="أيدي متشابكة تظهر الوحدة والتعاون"
           
         />

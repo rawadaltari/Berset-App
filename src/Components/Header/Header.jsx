@@ -3,6 +3,8 @@ import img1 from "../../assets/img/Breast Cancer Predictor.png";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import BtnNav from "../../Compon/BtnNav";
+import { useState } from "react";
+import { Menu } from 'lucide-react';
 const navItems = [
   { id: 1, label: "تواصل معنا ", href: "/Contact" },
   { id: 2, label: " كيفية الاستخدام ", href: "/Tester" },
@@ -11,6 +13,7 @@ const navItems = [
 ];
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="w-full">
       <div className="">
@@ -29,15 +32,46 @@ export default function Header() {
                     {ln.label}
                   </Nav.Link>
                 </Nav>
+                
               </Navbar>
             );
           })}
-
-          <div className="flex items-center space-x-4">
-            <BtnNav title="تسجيل الدخول" ln="/Login" />
+          <div className="max-sm:hidden md:flex">
+          <BtnNav  title={"تسجيل الدخول"} ln={"/Login"}/>
+          </div>
+          
+          <div className=" md:hidden  flex items-center space-x-4 ">
+            
+            <button 
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500"
+            >
+              <Menu size={24} />
+            </button>
           </div>
         </div>
       </div>
+      
+        
+      {/* Mobile menu, show/hide based on menu state */}
+      {isMenuOpen && (
+        <div className="md:hidden">
+          <div className="pt-2 pb-3 space-y-1">
+          {navItems.map((ln) => {
+            return (
+              <Navbar key={ln.id}>
+                <Nav  className=" items-center space-x-8 text-2l hover:text-[#da4273]">
+                  <Nav.Link  href={ln.href}>
+                    {ln.label}
+                  </Nav.Link>
+                </Nav>
+              </Navbar>
+            );
+          })}
+          </div>
+          <BtnNav className=" flex" title={"تسجيل الدخول"} ln={"/Login"}/>
+        </div>
+      )}
     </header>
   );
 }
