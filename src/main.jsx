@@ -7,7 +7,7 @@ import Login from './pages/Login/section/Login.jsx';
 import About from './pages/About/Info/About.jsx';
 import Contact from './pages/ContactUs/Contact.jsx';
 import Tester from './pages/Tester/Tester.jsx';
-
+import AnalysisPage from './pages/AnalysisPage/AnalysisPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -33,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/Tester/",
     element:(<Tester/>) ,
+  },
+  {
+    path: "/AnalysisPage/",
+    element:(<AnalysisPage/>) ,
   },
   {
     path: "/",

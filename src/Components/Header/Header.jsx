@@ -9,7 +9,9 @@ const navItems = [
   { id: 1, label: "تواصل معنا ", href: "/Contact" },
   { id: 2, label: " كيفية الاستخدام ", href: "/Tester" },
   { id: 3, label: " معلومات عن المرض ", href: "/About" },
+  { id: 5, label: "  فحص ماموغرام", href: "/AnalysisPage" },
   { id: 4, label: " الصفحة الرئيسية", href: "/Homepage" },
+  
 ];
 
 export default function Header() {
