@@ -39,7 +39,7 @@ export default function Header() {
             );
           })}
           <div className="max-sm:hidden md:flex">
-          <BtnNav  title={"تسجيل الدخول"} ln={"/Login"}/>
+          <BtnNav  title={"انشاء حساب"} ln={"/SignUp"}/>
           </div>
           
           <div className=" md:hidden  flex items-center space-x-4 ">
@@ -71,7 +71,7 @@ export default function Header() {
             );
           })}
           </div>
-          <BtnNav className=" flex" title={"تسجيل الدخول"} ln={"/Login"}/>
+          <BtnNav className=" flex" title={"تسجيل الدخول"} ln={"/SignUp"}/>
         </div>
       )}
     </header>

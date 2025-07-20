@@ -1,4 +1,6 @@
 
+
+import { Link } from 'react-router';
 import './Form.css'
 export default function Form() {
   return (
@@ -58,8 +60,10 @@ export default function Form() {
 
       <button className="button-submit">Sign Up</button>
       <p className="p">
-        Already have a account? <span className="span">login</span>
-      </p>
+        Already have a account?  <a href="/Login" style={{color:"red"}}>Login</a></p>
+         
+      
+     
       <div className="flex-row">
         <button className="btn google ">
           <svg

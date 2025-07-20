@@ -2,8 +2,7 @@ import "./BtnNav.css"
 import PropTypes from "prop-types";
 export default function BtnNav({title,ln}) {
   return (
-    
-    <div className="btn-conteiner">
+    <div className="btn-conteiner ">
     <a className="btn-content" href={ln}>
       <span className="btn-title">{title}</span>
       <span className="icon-arrow">
@@ -17,6 +16,7 @@ export default function BtnNav({title,ln}) {
       </span> 
     </a>
   </div>
+  
   );
 }
 BtnNav.propTypes = {

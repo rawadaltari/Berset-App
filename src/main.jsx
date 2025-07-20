@@ -8,8 +8,12 @@ import About from './pages/About/Info/About.jsx';
 import Contact from './pages/ContactUs/Contact.jsx';
 import Tester from './pages/Tester/Tester.jsx';
 import AnalysisPage from './pages/AnalysisPage/AnalysisPage.jsx'
-
+import Siginup from './pages/Login/Siginup.jsx';
 const router = createBrowserRouter([
+  {
+    path: "/Login/",
+    element: <Siginup/>,
+  },
   {
     path: "/SignUp/",
     element: <Login/>,
